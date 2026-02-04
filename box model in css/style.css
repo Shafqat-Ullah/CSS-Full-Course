@@ -26,7 +26,11 @@
 }
 .box2{
     background-color: rgb(160, 178, 178);
-    /* padding: 40px; */
+    /* padding: 15px; */
+    border-radius: 50%;
+    border: 5px solid black;
+     outline: 5px solid rgb(208, 25, 25);
+    overflow: hidden;
 }
 
 
