@@ -1,1 +1,26 @@
 
+.box
+{ 
+    /* width: 100%; */
+   max-width: 500px;
+   /* width: 150vw; */
+    background-color: rgb(131, 185, 148);
+    /* box-sizing: border-box; */
+    /* padding: 30px; */
+    text-align: center;
+    /* margin: 30px; */
+}
+.box2{
+    width: 60vw;
+    height: 50vh;
+    background-color: blueviolet;
+    text-align: center;
+    /* padding: 5%; */
+    box-sizing: border-box;
+}
+.para1{
+  font-size: large;
+ padding: 40px;
+ color: white;
+
+}
