@@ -24,3 +24,27 @@
  color: white;
 
 }
+
+/* .............em and rem .............  */
+.em{
+    max-width: 50%;
+    background-color: #13cf97;
+    /* font-size: 26px; */
+
+}
+.em-pra{
+    font-size: 2em;
+}
+.rem{
+    background-color: blueviolet;
+    max-width: 50%;
+    min-height: 15rem;
+    border-radius: 15%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20%;
+}
+.par2{
+    font-size: 1rem;
+    color: aliceblue;
+}
