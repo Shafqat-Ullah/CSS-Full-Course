@@ -28,7 +28,7 @@
 /* .............em and rem .............  */
 .em{
     max-width: 50%;
-    background-color: #13cf97;
+    background-color: #42b894;
     /* font-size: 26px; */
 
 }
@@ -36,7 +36,7 @@
     font-size: 2em;
 }
 .rem{
-    background-color: blueviolet;
+    background-color: rgb(30, 35, 127);
     max-width: 50%;
     min-height: 15rem;
     border-radius: 15%;
