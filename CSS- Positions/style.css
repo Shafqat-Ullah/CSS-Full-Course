@@ -1,0 +1,28 @@
+
+/* CSS Positions: Static, Relative, Absolute, Fixed, Sticky Explained  */
+.parent-element{
+    position: relative;
+}
+.main-element {
+    /* position: relative; */
+     /* top: 100px; */
+     /* position: absolute; */
+     /* top: 0; */
+     /* right: 0; */
+    background-color: rgb(193, 193, 58);
+    padding: 10px;
+    /* position: fixed;
+    top: 0;
+    right: 0; */
+    position: sticky;
+    top: 10px;
+    /* opacity: 04; */
+
+   
+}
+
+.sibling-element {
+    padding: 10px;
+    background-color: #f2f2f2;
+    
+}
