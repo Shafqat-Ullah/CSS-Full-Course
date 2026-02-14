@@ -1,18 +1,38 @@
+body{
+    font-family: cursive;
+box-sizing: border-box;
+}
+.contener{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  
+}
+
+
 .contener1{
 background-color: #E28525;
 width: 300px;
 height: 400px;
+/* text-align: center; */
 }
 .contener2{
-    background-color: #016972;
+    background-color: #18949f;
 width: 300px;
 height: 400px;
 
 }
 
 .contener3{
-    background-color: #00403F;
+    background-color: #1bcbc8;
 width: 300px;
 height: 400px;
 
+}
+button{
+    padding: 10px;
+      
+    border-radius: 20px;
+    margin-left: 40px;
 }
