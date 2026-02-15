@@ -2,11 +2,122 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+    font-family: cursive;
+}
+body{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
 }
 .nav{
     max-width: 100%;
     min-height: 30px;
-    background-color: blue;
+    /* background-color: rgb(49, 49, 237); */
+      backdrop-filter: blur(25px) saturate(0%);
+    -webkit-backdrop-filter: blur(25px) saturate(0%);
+    background-color: rgba(7, 89, 241, 0.78);
+    /* border-radius: 12px; */
+    border: 1px solid rgba(255, 255, 255, 0.125);
+   
 
 }
+ul{
+     display: flex;
+     padding: 20px;
+     list-style: none;
+     justify-content: end;
+      flex-wrap: wrap;
+     /* text-wrap: wrap; */
+    
+     
+}
+li{
+    padding: 20px;
+    /* text-align: center; */
+   
+}
+.box{
+    width: 100%;
+    /* height: 800px; */
+    /* background-color: red; */
+      display: flex;
+      flex-wrap: wrap;
+      text-wrap: wrap;
+      justify-content: center;
+        text-align: center;
+      /* align-items: center; */
+      /* padding: 20px; */
+      /* margin: 20px; */
+}
+.card{
+    margin: 10px;
+    
+    /* padding: 20px; */
+   border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    background-color: white;
 
+    /* display: flex; */
+  
+}
+p{
+    color: black;
+    /* max-width: 00px; */
+}
+#card1{
+    /* background-color: aqua; */
+   backdrop-filter: blur(25px) saturate(0%);
+    -webkit-backdrop-filter: blur(25px) saturate(0%);
+    background-color: rgba(65, 117, 5, 1);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125); 
+}
+#card2{
+    backdrop-filter: blur(25px) saturate(0%);
+    -webkit-backdrop-filter: blur(25px) saturate(0%);
+    background-color: rgb(234, 13, 205);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+#card3{
+    backdrop-filter: blur(25px) saturate(0%);
+    -webkit-backdrop-filter: blur(25px) saturate(0%);
+    background-color: rgb(10, 218, 229);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+#card4{
+    backdrop-filter: blur(25px) saturate(0%);
+    -webkit-backdrop-filter: blur(25px) saturate(0%);
+    background-color: rgb(10, 208, 30);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+button{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    border: 3px solid white;
+    margin: 50px;
+    box-shadow: 5px 5px 18px rgb(14, 14, 14);
+}
+.footer
+{
+    width: 100%;
+    height: 100px;
+    background-color: #3D7DF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30px; */
+    /* text-align: center; */
+    
+}
+.footer-para{
+    color: white;
+    font-size: large;
+}
