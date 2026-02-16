@@ -1,0 +1,22 @@
+/* .container{
+    max-width: 700px;
+    height: 200px;
+    background-color: red;
+}
+@media (width<700px) {
+    .container {
+        background-color: rgb(58, 215, 18);
+        display: flex;
+        flex-wrap: wrap; 
+        font-size: 2vmin;
+    }
+}
+@media(min-width<700px){
+    .main-conainer{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: red;
+    }
+}
+ */
+
