@@ -30,6 +30,7 @@
     box-sizing: border-box;
 }
  .nav{
+    padding: 0px 40px;
     width: 100%;
     height: 60px;
     background-color: aqua;
@@ -58,10 +59,11 @@
     font-family: sans-serif;
     flex-wrap: wrap;
  }
+ 
 .left{
-    
+    /* color: red; */
     width: 50%;
-height: 100%;
+/* height: 100%; */
 padding: 30px;
 line-height: 30px;
  /* background-color: red;  */
@@ -85,10 +87,10 @@ img{
 }
 button{
     margin-top: 60px;
-    width: 200px;
-    height: 40px;
+    padding: 20px 40px;
     border-radius: 10px;
     background-color: aqua;
+    cursor: pointer;
 }
 
 .footer{
@@ -100,6 +102,9 @@ button{
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
 }
+.footer p{
+    font-size: 1.5rem;
+}
 .hamburger{
     color: black;
     display: none;
@@ -109,12 +114,33 @@ button{
     .content{
         /* align-items: center; */
         flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
     }
     .item{
         display: none;
     }
     .hamburger{
         display: block;
+    }
+   
+    .left{
+        color: rgb(229, 146, 12);
+        width: 100%;
+        
+    }
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    button {
+        color: red;
+        margin-top: 20px;
+
+    }
+    .right{
+        margin: 0 auto;
     }
     
 }
